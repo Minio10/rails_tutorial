@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 
+gem 'bootstrap-sass', '3.4.1'
+
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
