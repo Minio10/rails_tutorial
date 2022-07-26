@@ -25,6 +25,7 @@ gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 
 gem 'bootstrap-sass', '3.4.1'
+gem 'rails-controller-testing'
 
 
 # Use Active Storage variant
