@@ -30,7 +30,7 @@ gem 'bcrypt', '3.1.13'
 
 gem 'faker', '2.22.0'
 
-gem 'will_paginate', '3.1.8'
+gem 'will_paginate', '~> 3.3.0'
 gem 'bootstrap-will_paginate', '1.0.0'
 
 
