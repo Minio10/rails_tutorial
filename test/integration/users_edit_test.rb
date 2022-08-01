@@ -68,4 +68,10 @@ class UsersEditTest < ActionDispatch::IntegrationTest
       assert_equal name, @user.name
       assert_equal email, @user.email
     end
+
+    test "show page activated" do 
+      log_in_as(@user)
+      get user_path(@user)
+      assert @user.activate
+    end
 end
