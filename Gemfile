@@ -70,3 +70,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'active_storage_validations'
+gem 'image_processing'
+gem 'mini_magick'
