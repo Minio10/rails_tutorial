@@ -18,6 +18,10 @@ class User < ApplicationRecord
         BCrypt::Password.create(string, cost: cost)
     end
 
+    def feed 
+        microposts 
+    end
+
     # Returns a random token.
     def self.new_token
         SecureRandom.urlsafe_base64
